@@ -31,7 +31,9 @@ fn main() {
 }
 
 fn volume(x:i32, y:i32, z:i32) -> i32 {
-    x * y * z
+    let (mk, mi, lo) = (2, 4, 5);
+    let info = (3, 4, 5);
+    x * info.0 * mk
 }
 
 fn area_of(x: i32, y: i32) -> i32 {
